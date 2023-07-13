@@ -1,0 +1,6 @@
+rootProject.name = 'gradle-demo'
+
+include('reactor-core')
+
+include "java-core-modules:java-lang-1"
+findProject(':java-core-modules :java-lang-1')?.name = 'java-lang-1'

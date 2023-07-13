@@ -1,0 +1,10 @@
+ext {
+    reactor = '3.4.17'
+}
+
+description = '测试容器'
+
+dependencies {
+    implementation "io.projectreactor:reactor-core:${reactor}"
+    testImplementation "io.projectreactor:reactor-test:${reactor}"
+}
